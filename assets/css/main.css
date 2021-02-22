@@ -4048,6 +4048,7 @@
 
 /* Banner */
 
+/*
 	.showcase {
 		height: 100vh;
 		display: flex;
@@ -4088,6 +4089,8 @@
 		left: 0;
 		position: absolute;
 	}
+
+	*/
 
 	.banner {
 		background-color: #fff;
