@@ -4129,8 +4129,8 @@
 
 		.banner.full {
 			padding: 0;
-			min-height: 100vh;
-			height: 100vh !important;
+			min-height: 65vh;
+			height: 65vh !important;
 		}
 
 		.banner.half {
@@ -4319,8 +4319,8 @@
 
 			.banner.full {
 				padding: 0;
-				min-height: 80vh;
-				height: 80vh !important;
+				min-height: 40vh;
+				height: 40vh !important;
 			}
 
 			.banner > article .inner {
@@ -4341,8 +4341,8 @@
 
 			.banner.full {
 				padding: 0;
-				min-height: 75vh;
-				height: 75vh !important;
+				min-height: 35vh;
+				height: 35vh !important;
 			}
 		}
 
@@ -4350,8 +4350,8 @@
 			
 			.banner.full {
 				padding: 0;
-				min-height: 50vh;
-				height: 50vh !important;
+				min-height: 35vh;
+				height: 35vh !important;
 			}
 
 			.banner > article {
@@ -4365,8 +4365,8 @@
 
 			.banner.full {
 				padding: 0;
-				min-height: 30vh;
-				height: 30vh !important;
+				min-height: 25vh;
+				height: 25vh !important;
 			}
 
 			.banner > article .inner {
