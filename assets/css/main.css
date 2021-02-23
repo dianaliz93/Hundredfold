@@ -4383,8 +4383,8 @@
 
 			.banner.full {
 				padding: 0;
-				min-height: 25vh;
-				height: 25vh !important;
+				min-height: 45vh;
+				height: 45vh !important;
 			}
 
 			.banner > article .inner {
@@ -4396,18 +4396,29 @@
 			}
 
 			.banner > article h2 {
-				font-size: 2em;
+				font-size: 3.5em;
 			}
 
 		}
 
-		@media screen and (max-width: 360 px){
-			.banner > article h2 {
-				font-size: 1.5em;
-			}
+		@media screen and (max-width: 400px){
 
 			.banner > article .inner {
 				width: 70%;
+			}
+			.banner > article h2 {
+				font-size: 2.7em;
+			}
+		}
+
+		@media screen and (max-width: 375px){
+
+		.banner > article .inner {
+				width: 65%;
+			}
+
+			.banner > article h2 {
+				font-size: 1.5em;
 			}
 		}
 
