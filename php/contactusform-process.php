@@ -7,16 +7,16 @@ if (empty($_POST["name"])) {
     $name = $_POST["name"];
 }
 
-if (empty($_POST["phone"])) {
-    $errorMSG = "Phone is required ";
-} else {
-    $phone = $_POST["phone"];
-}
-
 if (empty($_POST["email"])) {
     $errorMSG = "Email is required ";
 } else {
     $email = $_POST["email"];
+}
+
+if (empty($_POST["phone"])) {
+    $errorMSG = "Phone is required ";
+} else {
+    $phone = $_POST["phone"];
 }
 
 if (empty($_POST["select"])) {
@@ -25,14 +25,12 @@ if (empty($_POST["select"])) {
     $select = $_POST["select"];
 }
 
-if (empty($_POST["terms"])) {
-    $errorMSG = "Terms is required ";
-} else {
-    $terms = $_POST["terms"];
+if (isset($_POST["message"])) {  
+    $message = $_POST["message"];
 }
 
 $EmailTo = "yourname@domain.com";
-$Subject = "New quote request from Aria landing page";
+$Subject = "New quote request from: " .$name;
 
 // prepare email body text
 $Body = "";
@@ -48,8 +46,8 @@ $Body .= "\n";
 $Body .= "Package: ";
 $Body .= $select;
 $Body .= "\n";
-$Body .= "Terms: ";
-$Body .= $terms;
+$Body .= "Message: ";
+$Body .= $message;
 $Body .= "\n";
 
 // send email
