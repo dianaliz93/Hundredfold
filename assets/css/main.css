@@ -3886,6 +3886,17 @@
 
 	}
 
+	@media screen and (max-width: 882px) {
+		#header .logo  img { 
+			width: 200 px;
+		}
+
+		#header {
+			width: 600 px;
+		}
+
+	}
+
 	@media screen and (max-width: 480px) {
 
 		#header {
@@ -4135,8 +4146,8 @@
 
 		.banner.half {
 			padding: 0;
-			min-height: 50vh;
-			height: 50vh !important;
+			min-height: 40vh;
+			height: 40vh !important;
 		}
 
 		.banner:after {
@@ -4319,8 +4330,8 @@
 
 			.banner.full {
 				padding: 0;
-				min-height: 40vh;
-				height: 40vh !important;
+				min-height: 75vh;
+				height: 75vh !important;
 			}
 
 			.banner > article .inner {
@@ -4332,7 +4343,7 @@
 			}
 
 			.banner > article h2 {
-				font-size: 5em;
+				font-size: 7em;
 			}
 
 		}
@@ -4341,8 +4352,8 @@
 
 			.banner.full {
 				padding: 0;
-				min-height: 35vh;
-				height: 35vh !important;
+				min-height: 65vh;
+				height: 65vh !important;
 			}
 		}
 
@@ -4350,18 +4361,25 @@
 			
 			.banner.full {
 				padding: 0;
-				min-height: 35vh;
-				height: 35vh !important;
+				min-height: 50vh;
+				height: 50vh !important;
+			}
+
+			.banner > article .inner {
+				width: 65%;
 			}
 
 			.banner > article {
 				background-attachment: scroll;
 			}
 
+			.banner > article h2 {
+				font-size: 4em ;
+			}
+
 		}
 
 		@media screen and (max-width: 736px) {
-
 
 			.banner.full {
 				padding: 0;
@@ -4370,7 +4388,7 @@
 			}
 
 			.banner > article .inner {
-				width: 90%;
+				width: 80%;
 			}
 
 			.banner > article p {
@@ -4378,13 +4396,19 @@
 			}
 
 			.banner > article h2 {
-				font-size: 4em;
+				font-size: 2em;
 			}
 
 		}
 
-		@media screen and (max-width: 500px){
+		@media screen and (max-width: 360 px){
+			.banner > article h2 {
+				font-size: 1.5em;
+			}
 
+			.banner > article .inner {
+				width: 70%;
+			}
 		}
 
 		body.is-mobile .banner > article {
