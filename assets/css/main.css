@@ -1987,6 +1987,7 @@
 	.button {
 		background-color: #2E2D7E;
 		color: #ffffff !important;
+		border-radius: 18px;
 	}
 
 		input[type="submit"]:hover,
@@ -3753,10 +3754,10 @@
 			padding: 0;
 			position: absolute;
 			top: 0;
-			width: 100 px;
+			width: 350px;
 	}
 
-	#header .symbol{
+	#header .symbol img{
 		display: none;
 	}
 			/*
@@ -3896,6 +3897,28 @@
 		}
 	}
 
+	@media screen and (max-width: 540px) {
+		#header .logo  img { 
+			display: none;
+		}
+
+		#header > ul > li .button{
+			display: none;
+		}
+				
+		#header .symbol img{
+			display: inline-block;
+			height: 40px;
+			line-height: inherit;
+			left: 1em;
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			top: 0;
+			width: 60px;			
+		}
+	}
+
 	@media screen and (max-width: 480px) {
 		#header .logo  img { 
 			display: none;
@@ -3904,14 +3927,11 @@
 		#header > ul > li .button{
 			display: none;
 		}
-
-		#header .symbol{
-			display: inline-block;
-		}
-
-		
+				
 		#header .symbol img{
+			display: inline-block;
 			height: 40px;
+			line-height: inherit;
 			left: 1em;
 			margin: 0;
 			padding: 0;
@@ -4434,7 +4454,7 @@
 			}
 
 			.banner > article h2 {
-				font-size: 1.5em;
+				font-size: 2em;
 			}
 		}
 
