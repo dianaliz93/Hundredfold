@@ -3892,6 +3892,9 @@
 	}
 
 	@media screen and (max-width: 882px) {
+		#header{
+			height: 50px;
+		}
 		#header .logo  img { 
 			width: 200px;
 		}
