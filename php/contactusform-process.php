@@ -29,7 +29,7 @@ if (isset($_POST["message"])) {
     $message = $_POST["message"];
 }
 
-$EmailTo = "dianaliz.jardines@overonamerica.com";
+$EmailTo = "";
 $Subject = "New quote request from: " .$name;
 
 // prepare email body text
