@@ -1985,7 +1985,7 @@
 	input[type="button"],
 	button,
 	.button {
-		background-color: #2d537e;
+		background-color: #3724e7;
 		color: #ffffff !important;
 		border-radius: 18px;
 	}
@@ -3790,7 +3790,7 @@
 			color: #2E2D7E;
 			text-transform: uppercase;
 			font-weight: bold;
-			text-shadow: 1px 1px #E30523;
+			text-shadow: 1px 1px #3724e7;
 		}
 
 			#header > ul li a:hover {
