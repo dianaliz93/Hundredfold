@@ -1985,7 +1985,7 @@
 	input[type="button"],
 	button,
 	.button {
-		background-color: #2E2D7E;
+		background-color: #176ae6;
 		color: #ffffff !important;
 		border-radius: 18px;
 	}
@@ -3787,10 +3787,10 @@
 			padding: 0 0.75em;
 			color: inherit;
 			text-decoration: none;
-			color: #2E2D7E;
+			color: #176ae6;
 			text-transform: uppercase;
 			font-weight: bold;
-			text-shadow: 1px 1px #E30523;
+			text-shadow: 1px 1px #A9A9A9;
 		}
 
 			#header > ul li a:hover {
@@ -4485,7 +4485,12 @@
 		padding: 4rem 0 2rem 0 ;
 		/*background: url(../../images/leaves_pic.png);*/
 		background: #2E2D7E;
-		text-align: center;
+		text-align: center;		
+	}
+	
+	#footer p {
+		color: #bbb;		
+		margin: 4px;
 	}
 
 		#footer a {
