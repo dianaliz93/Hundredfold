@@ -1876,7 +1876,6 @@
 			}
 			
 			.box .image.fit img {
-				border-radius: 0;
 				height: 240px;
 			}
 
@@ -1982,8 +1981,8 @@
 			input[type="button"],
 			button,
 			.button {
-				padding: 2em;
-				width: 115px;
+				padding: 0;
+				width: 100%;
 			}
 
 		}
@@ -3898,6 +3897,10 @@
 		#header > ul > li .portal{
 			display: none;
 		}
+
+		#header > ul > li .button{
+			width: 35%;
+		}
 				
 		#header .symbol img{
 			display: inline-block;
@@ -3910,6 +3913,7 @@
 			top: 0;
 			width: 60px;			
 		}
+
 	}
 
 	@media screen and (max-width: 480px) {
