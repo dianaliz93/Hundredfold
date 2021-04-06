@@ -1634,7 +1634,7 @@
 	}
 
 	body, input, select, textarea {
-		font-family: "Poppins", sans-serif;
+		font-family: "Monserrat", sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.65;
@@ -1876,7 +1876,7 @@
 			}
 			
 			.box .image.fit img {
-				height: 240px;
+				height: 220px;
 			}
 
 		}
@@ -4394,8 +4394,8 @@
 			
 			.banner.full {
 				padding: 0;
-				min-height: 50vh;
-				height: 50vh !important;
+				min-height: 65vh;
+				height: 65vh !important;
 			}
 
 			.banner > article .inner {
@@ -4416,8 +4416,8 @@
 
 			.banner.full {
 				padding: 0;
-				min-height: 45vh;
-				height: 45vh !important;
+				min-height: 50vh;
+				height: 50vh !important;
 			}
 
 			.banner > article .inner {
@@ -4441,7 +4441,7 @@
 			}
 			.banner > article h2 {
 				font-size: 2.7em;
-			}
+			}	
 		}
 
 		@media screen and (max-width: 375px){
